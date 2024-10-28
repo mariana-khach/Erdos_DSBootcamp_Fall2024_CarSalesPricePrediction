@@ -66,6 +66,7 @@ Compare predictions of different Machine Learning models:
 - Support Vector Machines
 
 
+![2D_corr](https://github.com/user-attachments/assets/57596c38-ab98-45cb-9cf7-2e47153cb3aa)
 
 
 
