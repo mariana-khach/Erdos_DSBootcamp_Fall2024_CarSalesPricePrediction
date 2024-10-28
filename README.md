@@ -52,7 +52,7 @@ In this project we use dat from CarDekho. Founded in 2008 it is India's leading 
 The data contains 8128 entries and 12 features correponding to car name, year bought, selling price, kilometers driven,fuel type,seller type, transmission type, owner type, mileage, engine in the units of cubic capacity (CC), max_power in the units of brake horsepower (bhp),torque and number of seats. We didn't use torque feature since the units used for different entries correspond to different physical quantities and some of them have fixed values while others show range of vlaues.
 We then remove 215 rows with missing values for multiple columns, we are left with 7913 entries (2.6 % less statistics). 
 We then remove 1.1% of these corresponding to "LPG" and "CNG" underrepresented gas fuel types and this leaves 7819 enries.
-Then we remove duplicated rows, which drops entries to 6612 (removes 15 %).
+Then we remove duplicated rows, which drops entries to 6612 (removes 15 % of remaining).
 We then remove 0.07% data corresponding to "Test Drive Car" of Owner category, and get 6607 entries.
 After removing outliers (1.4 percent of remaining data) we are left with 6514 data points.
 
