@@ -15,6 +15,10 @@ Buying and selling cars is common experience especially among people leaving in 
 It is thus interesting to study what factors do influence car sales price significantly and what can be improved to have better sales and fair car sales prices.
 Using differnt Machine Learning Regression methods we will develop models to predict car sales price using [CarDekho Dataset](https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho/data?select=Car+details+v3.csv) .
 
+## Authors
+
+- [Mariana Khachatryan](https://github.com/mariana-khach)
+
 ## Overview:
 
 
