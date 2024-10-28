@@ -65,7 +65,11 @@ The data contains 8128 entries and 12 features correponding to car name, year bo
 
 ![2D_corr](https://github.com/user-attachments/assets/c18c9b2a-50cd-4792-ba15-9caf66e742fe)
 
-
+- Item 1
+- Item 2
+- Item 3
+  - Sub Item 1
+  - Sub Item 2
 
 
 ## Approach
