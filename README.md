@@ -48,13 +48,23 @@ These KPIs measure how effectively the model adds value to the business, such as
 
 ## Exploratory Data Analysis and Feature Engineering
 
-In this project we use dat from CarDekho. Founded in 2008 it is India's leading online marketplace that helps individuals and dealers buy, sell, and manage their cars.
-The data contains 8128 entries and 12 features correponding to car name, year bought, selling price, kilometers driven,fuel type,seller type, transmission type, owner type, mileage, engine in the units of cubic capacity (CC), max_power in the units of brake horsepower (bhp),torque and number of seats. We didn't use torque feature since the units used for different entries correspond to different physical quantities and some of them have fixed values while others show range of vlaues.
-We then remove 215 rows with missing values for multiple columns, we are left with 7913 entries (2.6 % less statistics). 
-We then remove 1.1% of these corresponding to "LPG" and "CNG" underrepresented gas fuel types and this leaves 7819 enries.
-Then we remove duplicated rows, which drops entries to 6612 (removes 15 % of remaining).
-We then remove 0.07% data corresponding to "Test Drive Car" of Owner category, and get 6607 entries.
-After removing outliers (1.4 percent of remaining data) we are left with 6514 data points.
+In this project we use dat from CarDekho. Founded in 2008, it is India's leading online marketplace that helps individuals and dealers buy, sell, and manage their cars.
+The data contains 8128 entries and 12 features correponding to car name, year bought, selling price, kilometers driven,fuel type,seller type, transmission type, owner type, mileage, engine in the units of cubic capacity (CC), max_power in the units of brake horsepower (bhp), torque and number of seats. We didn't use torque feature since the units used for different entries correspond to different physical quantities and some of them have fixed values while others show range of vlaues.\
+- Data cleaning involved:
+-- removal of 215 rows with missing values for multiple columns, which reduced entries to 7913 (2.6 % less statistics)
+-- removal of 1.1% of remaining data corresponding to "LPG" and "CNG" underrepresented gas fuel types which left 7819 enries
+-- removal of duplicated rows, which droped entries to 6612 (removed 15% of data)
+-- removal of 0.07% data corresponding to "Test Drive Car" of Owner category which left 6607 entries
+-- removal of outliers (1.4% of remaining data) 
+- Final data set had 6514 data points with 9 features
+
+
+![salesprice_corr](https://github.com/user-attachments/assets/b85210e6-9ba2-4ed7-8338-d0d37e76068d)
+
+![salesprice_maxpower](https://github.com/user-attachments/assets/8c00daaf-95ed-48d4-82ca-a5eb58d671b9)
+
+![2D_corr](https://github.com/user-attachments/assets/c18c9b2a-50cd-4792-ba15-9caf66e742fe)
+
 
 
 
@@ -65,10 +75,7 @@ Compare predictions of different Machine Learning models:
 - Tree Methods
 - Support Vector Machines
 
-![salesprice_maxpower](https://github.com/user-attachments/assets/d1022a93-895d-41ca-a25f-2b7842745703)
-![salesprice_corr](https://github.com/user-attachments/assets/dd95fbc7-4af6-438c-bc14-97d1210aa2e6)
 
-![2D_corr](https://github.com/user-attachments/assets/57596c38-ab98-45cb-9cf7-2e47153cb3aa)
 
 
 
