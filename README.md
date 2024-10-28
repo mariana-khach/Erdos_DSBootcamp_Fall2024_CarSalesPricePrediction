@@ -51,7 +51,7 @@ These KPIs measure how effectively the model adds value to the business, such as
 In this project we use dat from CarDekho. Founded in 2008, it is India's leading online marketplace that helps individuals and dealers buy, sell, and manage their cars.
 The data contains 8128 entries and 12 features correponding to car name, year bought, selling price, kilometers driven,fuel type,seller type, transmission type, owner type, mileage, engine in the units of cubic capacity (CC), max_power in the units of brake horsepower (bhp), torque and number of seats. We didn't use torque feature since the units used for different entries correspond to different physical quantities and some of them have fixed values while others show range of vlaues.\
 - Data cleaning involved:
-  _removal of 215 rows with missing values for multiple columns, which reduced entries to 7913 (2.6 % less statistics)
+    _removal of 215 rows with missing values for multiple columns, which reduced entries to 7913 (2.6 % less statistics)
   _removal of 1.1% of remaining data corresponding to "LPG" and "CNG" underrepresented gas fuel types which left 7819 enries
 -- removal of duplicated rows, which droped entries to 6612 (removed 15% of data)
 -- removal of 0.07% data corresponding to "Test Drive Car" of Owner category which left 6607 entries
