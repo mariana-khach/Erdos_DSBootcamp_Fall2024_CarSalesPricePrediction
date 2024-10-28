@@ -18,6 +18,9 @@ Using differnt Machine Learning Regression methods we will develop models to pre
 ## Authors
 
 - [Mariana Khachatryan](https://github.com/mariana-khach)
+- [Adreja Mondol](https://github.com/adrejamondol)
+- [Amogh Parab](https://github.com/parabamoghv)
+- [Nasim Dehghan](https://github.com/nasimdeh)
 
 ## Overview:
 
