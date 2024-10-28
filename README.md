@@ -49,14 +49,20 @@ These KPIs measure how effectively the model adds value to the business, such as
 ## Exploratory Data Analysis and Feature Engineering
 
 In this project we use dat from CarDekho. Founded in 2008, it is India's leading online marketplace that helps individuals and dealers buy, sell, and manage their cars.
-The data contains 8128 entries and 12 features correponding to car name, year bought, selling price, kilometers driven,fuel type,seller type, transmission type, owner type, mileage, engine in the units of cubic capacity (CC), max_power in the units of brake horsepower (bhp), torque and number of seats. We didn't use torque feature since the units used for different entries correspond to different physical quantities and some of them have fixed values while others show range of vlaues.\
+The data contains 8128 entries and 12 features correponding to car name, year bought, selling price, kilometers driven,fuel type,seller type, transmission type, owner type, mileage, engine in the units of cubic capacity (CC), max_power in the units of brake horsepower (bhp), torque and number of seats. We didn't use torque feature since the units used for different entries correspond to different physical quantities and some of them have fixed values while others show range of vlaues. We also dropped car name feature, since it had too many unique categories.
 - Data cleaning involved:
   - removal of 215 rows with missing values for multiple columns, which reduced entries to 7913 (2.6 % less statistics)
   - removal of 1.1% of remaining data corresponding to "LPG" and "CNG" underrepresented gas fuel types which left 7819 enries
   - removal of duplicated rows, which droped entries to 6612 (removed 15% of data)
-  - removal of 0.07% data corresponding to "Test Drive Car" of Owner category which left 6607 entries
+  - removal of 0.07% data corresponding to "Test Drive Car" of owner category which left 6607 entries
   - removal of outliers (1.4% of remaining data) 
-- Final data set had 6514 data points with 9 features
+- Final data set had 6514 data points with 9 features ()
+- Feature engineering
+  - we modified number of seats feture to have two bins for number of seats >5 and seats<=5
+    ![Nseats](https://github.com/user-attachments/assets/d8d244ea-3312-4f62-abc9-06e2730c1191)
+  - we combined "Trustmark Dealer" with "Dealer" categories in seller type feature, to decrease imbalance between different categories
+    ![dealer](https://github.com/user-attachments/assets/93413292-4224-4c01-b95a-71eefbc2e0a0)
+
 
 
 ![salesprice_corr](https://github.com/user-attachments/assets/b85210e6-9ba2-4ed7-8338-d0d37e76068d)
@@ -65,11 +71,6 @@ The data contains 8128 entries and 12 features correponding to car name, year bo
 
 ![2D_corr](https://github.com/user-attachments/assets/c18c9b2a-50cd-4792-ba15-9caf66e742fe)
 
-- Item 1
-- Item 2
-- Item 3
-  - Sub Item 1
-  - Sub Item 2
 
 
 ## Approach
