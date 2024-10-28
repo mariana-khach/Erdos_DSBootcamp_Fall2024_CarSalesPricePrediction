@@ -22,6 +22,32 @@ Using differnt Machine Learning Regression methods we will develop models to pre
 - [Amogh Parab](https://github.com/parabamoghv)
 - [Nasim Dehghan](https://github.com/nasimdeh)
 
+
+## KPI
+
+#### Technical performance Key Performance Indicators (KPIs)
+
+1.	Mean Absolute Error (MAE)
+2.	Mean Squared Error (MSE)
+3.	Root Mean Squared Error (RMSE)
+4.	R-squared- proportion of variance in target variable that is predictable from input features
+
+#### Business impact KPIs
+
+These KPIs measure how effectively the model adds value to the business, such as improving pricing strategies or increasing customer satisfaction.
+1.	Revenue Increase: Accurate price predictions could help optimize the selling price of cars, leading to better margins.
+2.	Cost Reduction: If the model is used to automate pricing, it can reduce the need for manual evaluation and pricing, saving labor costs.
+3.	Inventory Turnover Rate: How quickly cars are being sold after their prices are set by the model.
+
+#### Key Stakeholders
+
+1.	Car Dealerships need price prediction model to set competitive and accurate prices for cars. Dealerships want to maximize profit while ensuring quick car sales. Accurate price prediction results in competitive pricing and profitability.
+2.	Customers can use the model to estimate whether the set price is fare.
+
+
+
+
+
 ## Overview:
 
 
