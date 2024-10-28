@@ -65,6 +65,8 @@ Compare predictions of different Machine Learning models:
 - Tree Methods
 - Support Vector Machines
 
+![salesprice_maxpower](https://github.com/user-attachments/assets/d1022a93-895d-41ca-a25f-2b7842745703)
+![salesprice_corr](https://github.com/user-attachments/assets/dd95fbc7-4af6-438c-bc14-97d1210aa2e6)
 
 ![2D_corr](https://github.com/user-attachments/assets/57596c38-ab98-45cb-9cf7-2e47153cb3aa)
 
