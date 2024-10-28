@@ -62,14 +62,14 @@ The data contains 8128 entries and 12 features correponding to car name, year bo
     ![Nseats](https://github.com/user-attachments/assets/d8d244ea-3312-4f62-abc9-06e2730c1191)
   - we combined "Trustmark Dealer" with "Dealer" categories in seller type feature, to decrease imbalance between different categories
     ![dealer](https://github.com/user-attachments/assets/93413292-4224-4c01-b95a-71eefbc2e0a0)
-
-
-
-![salesprice_corr](https://github.com/user-attachments/assets/b85210e6-9ba2-4ed7-8338-d0d37e76068d)
-
-![salesprice_maxpower](https://github.com/user-attachments/assets/8c00daaf-95ed-48d4-82ca-a5eb58d671b9)
-
-![2D_corr](https://github.com/user-attachments/assets/c18c9b2a-50cd-4792-ba15-9caf66e742fe)
+We then used one hot encoding for categorical fetures (fuel type, seller type, transmission type, owner type, number of seats bin category).
+- Explarotary data analysis:
+  - we have looked at the correlation of sales price with different feature
+    ![salesprice_corr](https://github.com/user-attachments/assets/b85210e6-9ba2-4ed7-8338-d0d37e76068d)
+  - sales price has highest correlation with max power
+    ![salesprice_maxpower](https://github.com/user-attachments/assets/8c00daaf-95ed-48d4-82ca-a5eb58d671b9)
+  - Before model training, correlated features were removed, i.e. only one feature among features with correlation > 0.7 was kept. 
+    ![2D_corr](https://github.com/user-attachments/assets/c18c9b2a-50cd-4792-ba15-9caf66e742fe)
 
 
 
