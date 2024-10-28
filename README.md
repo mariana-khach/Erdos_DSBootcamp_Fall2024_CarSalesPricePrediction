@@ -39,16 +39,25 @@ These KPIs measure how effectively the model adds value to the business, such as
 2.	Cost Reduction: If the model is used to automate pricing, it can reduce the need for manual evaluation and pricing, saving labor costs.
 3.	Inventory Turnover Rate: How quickly cars are being sold after their prices are set by the model.
 
-#### Key Stakeholders
+## Key Stakeholders
 
 1.	Car Dealerships need price prediction model to set competitive and accurate prices for cars. Dealerships want to maximize profit while ensuring quick car sales. Accurate price prediction results in competitive pricing and profitability.
 2.	Customers can use the model to estimate whether the set price is fare.
 
 
 
+## Exploratory Data Analysis and Feature Engineering
+In this project we use dat from CarDekho. Founded in 2008 it is India's leading online marketplace that helps individuals and dealers buy, sell, and manage their cars.
 
 
-## Overview:
+
+## Approach
+
+Compare predictions of different Machine Learning models:
+- Linear Regression
+- Tree Methods
+- Support Vector Machines
+
 
 
 
