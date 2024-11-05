@@ -51,12 +51,12 @@ These KPIs measure how effectively the model adds value to the business, such as
 In this project we use data from CarDekho. Founded in 2008, it is India's leading online marketplace that helps individuals and dealers buy, sell, and manage their cars.
 The data contains 8128 entries and 12 features corresponding to car name, year bought, selling price, kilometers driven, fuel type, seller type, transmission type, owner type, mileage, engine in the units of cubic capacity (CC), max_power in the units of brake horsepower (bhp), torque and number of seats. We didn't use torque feature since the units used for different entries correspond to different physical quantities and some of them have fixed values while others show range of values. We also dropped car name feature, since it had too many unique categories.
 - Data cleaning involved:
-  - removal of 215 rows with missing values for multiple columns, which reduced entries to 7913 (2.6 % less statistics)
-  - removal of 1.1% of remaining data corresponding to "LPG" and "CNG" underrepresented gas fuel types which left 7819 entries
-  - removal of duplicated rows, which dropped entries to 6612 (removed 15% of data)
-  - removal of 0.07% data corresponding to "Test Drive Car" of owner category which left 6607 entries
+  - removal of duplicated rows, which dropped entries to 6926 (removed 14.79% of data)
+  - removal of 209 rows with missing values for multiple columns, which reduced entries to 6717 (3.02% less statistics)
+  - removal of 1.28% of remaining data corresponding to "LPG" and "CNG" underrepresented gas fuel types which left 6631 entries
+  - removal of 0.08% data corresponding to "Test Drive Car" of owner category which left 6626 entries
   - removal of outliers (1.4% of remaining data) 
-- Final data set had 6514 data points with 9 features ()
+- Final data set had 6533 data points with 9 features 
 - Feature engineering
   - we modified number of seats feature to have two bins for number of seats >5 and seats<=5
     ![Nseats](https://github.com/user-attachments/assets/cdad7d03-64a4-4c7b-9972-2c52f4d147f7)
