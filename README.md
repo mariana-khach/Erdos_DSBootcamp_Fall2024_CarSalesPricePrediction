@@ -62,6 +62,7 @@ The data contains 8128 entries and 12 features corresponding to car name, year b
     ![Nseats](https://github.com/user-attachments/assets/cdad7d03-64a4-4c7b-9972-2c52f4d147f7)
   - we combined "Trustmark Dealer" with "Dealer" categories in seller type feature, to decrease imbalance between different categories
     ![dealer](https://github.com/user-attachments/assets/5c4fc41a-5d9e-4938-99bf-83f3be569d2a)
+    
 We then used one hot encoding for categorical features (fuel type, seller type, transmission type, owner type, number of seats bin category).
 - Exploratary data analysis:
   - we have looked at the correlation of sales price with different feature
