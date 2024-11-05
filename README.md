@@ -73,11 +73,16 @@ We then used one hot encoding for categorical features (fuel type, seller type, 
     ![2D_corr](https://github.com/user-attachments/assets/23b97239-3831-4194-b2bd-5add205db31d)
 
 We can see the distributions of sales price for differnt categorical features in the violin plots below. the distributions look different for different categories of given categorical feature, which suggests that they should all be included in training of model.
-![price_fuel](https://github.com/user-attachments/assets/071937cf-9e8c-4066-ac7e-8617e9a9d7d6)
-![price_Nseats](https://github.com/user-attachments/assets/d70d8ee3-49bf-496f-8926-b5e6254e3cf4)
-![price_owner](https://github.com/user-attachments/assets/45677c4f-ea9a-442f-b4a9-eb3c1b3f963e)
-![price_sellertype](https://github.com/user-attachments/assets/9ee0026d-7dd4-466c-af48-f661e737346d)
-![price_transmission](https://github.com/user-attachments/assets/75f5dba7-ae64-4899-b301-7ddc46339592)
+![price_fuel](https://github.com/user-attachments/assets/5c78b66f-2117-4055-ada4-9ff33906e070)
+![price_Nseats](https://github.com/user-attachments/assets/b74d48ff-89ad-4bad-a12e-8ac1114ae99f)
+![price_owner](https://github.com/user-attachments/assets/43a8a7b8-18b5-454e-a17d-925450f9e72d)
+![price_sellertype](https://github.com/user-attachments/assets/252b32f9-8b45-4efe-87f7-5775ab6dd634)
+![price_transmission](https://github.com/user-attachments/assets/85845896-d780-4bf0-bb8a-d6498e0f0dec)
+
+
+
+
+
 
 
 
