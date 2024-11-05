@@ -72,6 +72,16 @@ We then used one hot encoding for categorical features (fuel type, seller type, 
   - Before model training, correlated features were removed, i.e. only one feature among features with correlation > 0.8 was kept.
     ![2D_corr](https://github.com/user-attachments/assets/23b97239-3831-4194-b2bd-5add205db31d)
 
+We can see the distributions of sales price for differnt categorical features in the violin plots below. the distributions look different for different categories of given categorical feature, which suggests that they should all be included in training of model.
+![price_fuel](https://github.com/user-attachments/assets/071937cf-9e8c-4066-ac7e-8617e9a9d7d6)
+![price_Nseats](https://github.com/user-attachments/assets/d70d8ee3-49bf-496f-8926-b5e6254e3cf4)
+![price_owner](https://github.com/user-attachments/assets/45677c4f-ea9a-442f-b4a9-eb3c1b3f963e)
+![price_sellertype](https://github.com/user-attachments/assets/9ee0026d-7dd4-466c-af48-f661e737346d)
+![price_transmission](https://github.com/user-attachments/assets/75f5dba7-ae64-4899-b301-7ddc46339592)
+
+
+
+
 
 
 
