@@ -68,8 +68,9 @@ We then used one hot encoding for categorical features (fuel type, seller type, 
     ![salesprice_corr](https://github.com/user-attachments/assets/b85210e6-9ba2-4ed7-8338-d0d37e76068d)
   - sales price has highest correlation with max power
     ![salesprice_maxpower](https://github.com/user-attachments/assets/8c00daaf-95ed-48d4-82ca-a5eb58d671b9)
-  - Before model training, correlated features were removed, i.e. only one feature among features with correlation > 0.7 was kept. 
-    ![2D_corr](https://github.com/user-attachments/assets/c18c9b2a-50cd-4792-ba15-9caf66e742fe)
+  - Before model training, correlated features were removed, i.e. only one feature among features with correlation > 0.8 was kept.
+    ![2D_corr](https://github.com/user-attachments/assets/23b97239-3831-4194-b2bd-5add205db31d)
+
 
 
 
