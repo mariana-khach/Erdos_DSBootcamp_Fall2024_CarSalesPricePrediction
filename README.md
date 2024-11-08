@@ -69,7 +69,7 @@ We then used one hot encoding for categorical features (fuel type, seller type, 
     ![salesprice_corr](https://github.com/user-attachments/assets/0a7ef427-fb65-4007-8880-aa1d838f95f8)
   - sales price has highest correlation with max power
     ![salesprice_maxpower](https://github.com/user-attachments/assets/56d2330a-7fff-4608-9568-8eba2f533b17)
-  - Before model training, correlated features were removed, i.e. only one feature among features with correlation $ \geq 0.8 $ was kept. $\sqrt{3x-1}+(1+x)^2$
+  - Before model training, correlated features were removed, i.e. only one feature among features with correlation $\geq 8$ was kept.
     ![2D_corr](https://github.com/user-attachments/assets/708235f7-1d9a-4bb5-bf5b-d44f5c26655a)
 
 We can see the distributions of sales price for differnt categorical features in the violin plots below. the distributions look different for different categories of given categorical feature, which suggests that they should all be included in training of model.
