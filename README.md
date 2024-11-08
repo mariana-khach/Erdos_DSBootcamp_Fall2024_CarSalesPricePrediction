@@ -55,7 +55,7 @@ The data contains 8128 entries and 12 features corresponding to car name, year b
   - removal of 209 rows with missing values for multiple columns, which reduced entries to 6717 (3.02% less statistics)
   - removal of 1.28% of remaining data corresponding to "LPG" and "CNG" underrepresented gas fuel types which left 6631 entries
   - removal of 0.08% data corresponding to "Test Drive Car" of owner category which left 6626 entries
-  - removal of outliers (1.4% of remaining data) 
+  - removal of outliers (5.42% of remaining data) 
 - Final data set had 6533 data points with 9 features 
 - Feature engineering
   - we modified number of seats feature to have two bins for number of seats >5 and seats<=5
