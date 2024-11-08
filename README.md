@@ -66,28 +66,18 @@ The data contains 8128 entries and 12 features corresponding to car name, year b
 We then used one hot encoding for categorical features (fuel type, seller type, transmission type, owner type, number of seats bin category).
 - Exploratary data analysis:
   - we have looked at the correlation of sales price with different feature
-    ![salesprice_corr](https://github.com/user-attachments/assets/4815a5ff-c78b-474d-86c4-e50e3dadc87f)
+    ![salesprice_corr](https://github.com/user-attachments/assets/0a7ef427-fb65-4007-8880-aa1d838f95f8)
   - sales price has highest correlation with max power
-    ![salesprice_maxpower](https://github.com/user-attachments/assets/1eb79460-02c0-418f-9d89-c6df5df84d3e)
+    ![salesprice_maxpower](https://github.com/user-attachments/assets/56d2330a-7fff-4608-9568-8eba2f533b17)
   - Before model training, correlated features were removed, i.e. only one feature among features with correlation > 0.8 was kept.
-    ![2D_corr](https://github.com/user-attachments/assets/23b97239-3831-4194-b2bd-5add205db31d)
+    ![2D_corr](https://github.com/user-attachments/assets/708235f7-1d9a-4bb5-bf5b-d44f5c26655a)
 
 We can see the distributions of sales price for differnt categorical features in the violin plots below. the distributions look different for different categories of given categorical feature, which suggests that they should all be included in training of model.
-![price_fuel](https://github.com/user-attachments/assets/5c78b66f-2117-4055-ada4-9ff33906e070)
-![price_sellertype](https://github.com/user-attachments/assets/252b32f9-8b45-4efe-87f7-5775ab6dd634)
-![price_transmission](https://github.com/user-attachments/assets/85845896-d780-4bf0-bb8a-d6498e0f0dec)
-![price_Nseats](https://github.com/user-attachments/assets/b74d48ff-89ad-4bad-a12e-8ac1114ae99f)
-![price_owner](https://github.com/user-attachments/assets/43a8a7b8-18b5-454e-a17d-925450f9e72d)
-
-
-
-
-
-
-
-
-
-
+![price_fuel](https://github.com/user-attachments/assets/fa84906e-8be6-43e2-8f2e-0108747e7b26)
+![price_sellertype](https://github.com/user-attachments/assets/5daee49e-c9b9-4240-bb7b-5302d84650f5)
+![price_transmission](https://github.com/user-attachments/assets/122ebd1a-0053-402b-89ff-6fc17216dd83)
+![price_Nseats](https://github.com/user-attachments/assets/14c60686-74af-4156-872e-69eb2db58c56)
+![price_owner](https://github.com/user-attachments/assets/94adbec0-f007-41a0-91f8-ebd918d129c2)
 
 
 ## Approach
