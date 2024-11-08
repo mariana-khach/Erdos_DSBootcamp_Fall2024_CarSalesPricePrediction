@@ -64,7 +64,7 @@ The data contains 8128 entries and 12 features corresponding to car name, year b
     ![dealer](https://github.com/user-attachments/assets/5c4fc41a-5d9e-4938-99bf-83f3be569d2a)
     
 We then used one hot encoding for categorical features (fuel type, seller type, transmission type, owner type, number of seats bin category).
-- Exploratary data analysis:
+- Exploratory data analysis:
   - we have looked at the correlation of sales price with different feature
     ![salesprice_corr](https://github.com/user-attachments/assets/0a7ef427-fb65-4007-8880-aa1d838f95f8)
   - sales price has highest correlation with max power
