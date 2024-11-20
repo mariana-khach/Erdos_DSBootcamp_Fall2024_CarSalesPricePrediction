@@ -13,7 +13,7 @@ the analysis of all group members can be found in the following collaborative gi
 
 Buying and selling cars is common experience especially among people leaving in rural areas with little or no transportation.
 It is thus interesting to study what factors do influence car sales price significantly and what can be improved to have better sales and fair car sales prices.
-Using differnt Machine Learning Regression methods we will develop models to predict car sales price using [CarDekho Dataset](https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho/data?select=Car+details+v3.csv) .
+Using different Machine Learning Regression methods we will develop models to predict car sales price using [CarDekho Dataset](https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho/data?select=Car+details+v3.csv) .
 
 ## Authors
 
