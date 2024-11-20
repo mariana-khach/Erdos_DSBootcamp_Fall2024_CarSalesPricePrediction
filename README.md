@@ -99,7 +99,7 @@ We also divide label values by 10^5 to have it in the units of $100000.
 
 ## Linear Regression (Base model)
 
-As a baseline model we us simple linear regression (LinearRegression model from python sklearn library). We get Root Mean Squared Error (MSE) of 1.35 and $R^2=0.73$.
+As a baseline model we us simple linear regression (LinearRegression model from python sklearn library). We get Root Mean Squared Error (RMSE) of 1.35 and $R^2=0.73$.
 We the calculate residuals (difeference between predicted label values and true values) and plot it vs true values to check Homoscedasticity of data. We can see in the picture below that the assumption of homoscedasticity is violated.
 
 ![Homoscedasticity](https://github.com/user-attachments/assets/d4284939-acc0-4f3b-a16d-6dc7b780f424)
@@ -110,3 +110,21 @@ We also check normality by plotting residuals vs theoretical quartiles of normal
 
 We can see that normality is violated for lower  for residual values below -3.
 These results indicate that we should consider other non-linear models.
+We also did more advance analysis using Linear Regression with Lasso and Ridge regularizations and using Principal Component Analysis to reduce number of feature. Using Grid Search Cross-Validation to tune model parameters,
+we found best performance with 10 principal componnets with $R^2=0.72$.
+
+## Polynomial regression 
+
+We then use polynomial regressions of different degree, and 2nd degree polynomial regression shows the best performance with RMSE of 1.12 and $R^2=0.82$.
+
+## K-Nearest Neighbours (KNN)
+
+We also used KNN models using different n numbers of neighbours. We get high variance with low n and high bias with higher n. n=5 and n=10 gave similar performance with RMSE of 1.13 and $R^2=0.81$.
+
+## Support Vector Machines (SVM)
+
+We used Grid Search Cross-Validation to tune model parameters for Support Vector Regressor. We got RMSE of 1.09 and $R^2=0.82$.
+
+## Extreme Gradient Boosting (XGBoost)
+
+Overall best model performance was obtained wit XGBoost with RMSE of 0.87 and $R^2=0.89$. 
