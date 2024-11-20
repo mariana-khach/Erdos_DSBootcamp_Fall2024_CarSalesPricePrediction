@@ -131,3 +131,6 @@ Overall best model performance was obtained wit XGBoost with RMSE of 0.87 and $R
 The performance of different models is summarized in the following table.
 
 ![Model_table](https://github.com/user-attachments/assets/61af1108-841f-49ce-96d7-761cd836172a)
+
+XGBoost outperforms SVMs and kNN because it is inherently nonlinear and robust to scale and is less sensitive to hyperparameter tuning.  
+XGBoost improves performance by combining multiple trees, which enhances it's ability to model complex patterns. It also reduces overfitting by combining multiple trees and employing shrinkage/regularization.
