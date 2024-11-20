@@ -90,7 +90,7 @@ We start with linear regression model as a baseline model. We also use Elastic N
 We want to learn:
 - Which features have the most influence on sales price prediction?
 - Which regression model will provide the best performance?
-- What is the pediction error?
+- What is the prediction error?
 The model framework is displayed in the following diagram:
 
 ![Modeling_framework](https://github.com/user-attachments/assets/ea31faf6-99e7-4ec7-8946-e8d082fa2ed5)
