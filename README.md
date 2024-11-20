@@ -92,7 +92,9 @@ We want to learn:
 - Which regression model will provide the best performance?
 - What is the pediction error?
 The model framework is displayed in the following diagram:
+
 ![Modeling_framework](https://github.com/user-attachments/assets/ea31faf6-99e7-4ec7-8946-e8d082fa2ed5)
+
 As we are trying different regression models including one's that use distance metric, we use one-hot encoding for categorical features and scale the data for features using Standard scaling.
 We also divide label values by 10^5 to have it in the units of $100000.
 
@@ -134,3 +136,27 @@ The performance of different models is summarized in the following table.
 
 XGBoost outperforms SVMs and kNN because it is inherently nonlinear and robust to scale and is less sensitive to hyperparameter tuning.  
 XGBoost improves performance by combining multiple trees, which enhances it's ability to model complex patterns. It also reduces overfitting by combining multiple trees and employing shrinkage/regularization.
+
+## SHapley Additive exPlanations (SHAP values) for describing feature importances
+
+SHAP values is a method based on cooperative game theory. SHAP shows the contribution or the importance of each feature on the prediction of the model
+The SHAP values for one single observation are shown in the following plot:
+
+![Waterfall_onerow](https://github.com/user-attachments/assets/49765a99-3903-4c4b-b159-9a675c48cba7)
+
+x-axis has the values of car sales price. x is the chosen observation, f(x) is the predicted value of the model, given input x and E[f(x)] is the the mean of all predictions.
+The SHAP value for each feature in this observation is given by the length of the bar. The sum of all SHAP values will be equal to E[f(x)] — f(x).
+For analysis of the global effect of the features we can look at he following plots.
+
+![Feature_shapvalues](https://github.com/user-attachments/assets/65965062-18f5-4f46-8c2d-c0f83d58739d)
+
+Here the features are ordered from the highest to the lowest effect on the prediction. It takes in account the absolute SHAP value, so it does not matter if the feature affects the prediction in a positive or negative way.
+We can see that the three features that have the most effect on the model prediction are year, max_power and engine. This is consistent with our results from EDA. 
+
+![Feature_shapvalues_violin](https://github.com/user-attachments/assets/f07b5f25-c35f-480f-9402-b691e7d42a2f)
+
+Following violin plot also shows the global effect of the features on model prediction. Here we can also see how higher and lower values of the feature will affect the result.
+
+![Feature_shapvalues_violin](https://github.com/user-attachments/assets/919c84af-e08a-4873-8583-e31acca550f0)
+
+
