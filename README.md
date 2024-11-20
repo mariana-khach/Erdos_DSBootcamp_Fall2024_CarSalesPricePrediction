@@ -86,7 +86,7 @@ We compare predictions of different Machine Learning models:
 - Linear Regression
 - Tree Methods
 - Support Vector Machines
-We start with linear regression model as a baseline model. We also use Elastic Net linear model from python sklearn library. Elastic Net uses combination of Lasso and Ridge regularizations. We will then compare results from different regression models. We use grid search to find optimal model parameters for different regression methods. 
+We start with linear regression model as a baseline model. We also use Elastic Net linear model from python sklearn library. Elastic Net uses combination of Lasso and Ridge regularizations. We then compare results from different regression models. We use grid search to find optimal model parameters for different regression methods. 
 We want to learn:
 - Which features have the most influence on sales price prediction?
 - Which regression model will provide the best performance?
