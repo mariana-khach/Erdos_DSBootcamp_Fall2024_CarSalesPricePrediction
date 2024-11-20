@@ -144,7 +144,7 @@ The SHAP values for one single observation are shown in the following plot:
 
 ![Waterfall_onerow](https://github.com/user-attachments/assets/49765a99-3903-4c4b-b159-9a675c48cba7)
 
-x-axis has the values of car sales price. x is the chosen observation, f(x) is the predicted value of the model, given input x and E[f(x)] is the the mean of all predictions.
+x-axis has the values of car sales price. x is the chosen observation, f(x) is the predicted value of the model, given input x and E[f(x)] is the mean of all predictions.
 The SHAP value for each feature in this observation is given by the length of the bar. The sum of all SHAP values will be equal to E[f(x)] — f(x).
 For analysis of the global effect of the features we can look at he following plots.
 
