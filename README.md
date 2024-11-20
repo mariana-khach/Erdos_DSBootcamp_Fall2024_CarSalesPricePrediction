@@ -153,8 +153,6 @@ For analysis of the global effect of the features we can look at he following pl
 Here the features are ordered from the highest to the lowest effect on the prediction. It takes in account the absolute SHAP value, so it does not matter if the feature affects the prediction in a positive or negative way.
 We can see that the three features that have the most effect on the model prediction are year, max_power and engine. This is consistent with our results from EDA. 
 
-![Feature_shapvalues_violin](https://github.com/user-attachments/assets/f07b5f25-c35f-480f-9402-b691e7d42a2f)
-
 Following violin plot also shows the global effect of the features on model prediction. Here we can also see how higher and lower values of the feature will affect the result.
 
 ![Feature_shapvalues_violin](https://github.com/user-attachments/assets/919c84af-e08a-4873-8583-e31acca550f0)
