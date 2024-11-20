@@ -101,8 +101,12 @@ We also divide label values by 10^5 to have it in the units of $100000.
 
 As a baseline model we us simple linear regression (LinearRegression model from python sklearn library). We get Root Mean Squared Error (MSE) of 1.35 and $R^2=0.73$.
 We the calculate residuals (difeference between predicted label values and true values) and plot it vs true values to check Homoscedasticity of data. We can see in the picture below that the assumption of homoscedasticity is violated.
+
 ![Homoscedasticity](https://github.com/user-attachments/assets/d4284939-acc0-4f3b-a16d-6dc7b780f424)
+
 We also check normality by plotting residuals vs theoretical quartiles of normal distribution. 
+
 ![Normality](https://github.com/user-attachments/assets/f2035187-12c5-48c4-a7ff-39dc8a4fb6dd)
+
 We can see that normality is violated for lower  for residual values below -3.
 These results indicate that we should consider other non-linear models.
