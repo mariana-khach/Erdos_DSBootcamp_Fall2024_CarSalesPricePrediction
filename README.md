@@ -128,3 +128,6 @@ We used Grid Search Cross-Validation to tune model parameters for Support Vector
 ## Extreme Gradient Boosting (XGBoost)
 
 Overall best model performance was obtained wit XGBoost with RMSE of 0.87 and $R^2=0.89$. 
+The performance of different models is summarized in the following table.
+
+![Model_table](https://github.com/user-attachments/assets/61af1108-841f-49ce-96d7-761cd836172a)
