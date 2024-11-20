@@ -102,7 +102,7 @@ We also divide label values by 10^5 to have it in the units of $100000.
 ## Linear Regression (Base model)
 
 As a baseline model we us simple linear regression (LinearRegression model from python sklearn library). We get Root Mean Squared Error (RMSE) of 1.35 and $R^2=0.73$.
-We the calculate residuals (difeference between predicted label values and true values) and plot it vs true values to check Homoscedasticity of data. We can see in the picture below that the assumption of homoscedasticity is violated.
+We the calculate residuals (difference between predicted label values and true values) and plot it vs true values to check Homoscedasticity of data. We can see in the picture below that the assumption of homoscedasticity is violated.
 
 ![Homoscedasticity](https://github.com/user-attachments/assets/d4284939-acc0-4f3b-a16d-6dc7b780f424)
 
