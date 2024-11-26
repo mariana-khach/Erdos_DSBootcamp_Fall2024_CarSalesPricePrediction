@@ -139,7 +139,7 @@ XGBoost improves performance by combining multiple trees, which enhances it's ab
 
 ## SHapley Additive exPlanations (SHAP values) for describing feature importances
 
-SHAP values is a method based on cooperative game theory. SHAP shows the contribution or the importance of each feature on the prediction of the model.
+SHAP values is a method based on cooperative game theory (https://towardsdatascience.com/using-shap-values-to-explain-how-your-machine-learning-model-works-732b3f40e137). SHAP shows the contribution or the importance of each feature on the prediction of the model.
 The SHAP values for one single observation are shown in the following plot:
 
 ![Waterfall_onerow](https://github.com/user-attachments/assets/49765a99-3903-4c4b-b159-9a675c48cba7)
