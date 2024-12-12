@@ -96,7 +96,7 @@ The model framework is displayed in the following diagram:
 ![Modeling_framework](https://github.com/user-attachments/assets/4c78a63e-e484-48b6-94c2-d4fa86745b79)
 
 As we are trying different regression models including one's that use distance metric, we use one-hot encoding for categorical features and scale the data for features using Standard scaling.
-We also divide label values by 10^5 to have it in the units of $100000.
+We also divide label values by 10^5 to have it in the units of 100000 Indian Rupees.
 
 
 ## Linear Regression (Base model)
