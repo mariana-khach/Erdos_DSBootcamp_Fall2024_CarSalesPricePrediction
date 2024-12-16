@@ -132,7 +132,8 @@ We used Grid Search Cross-Validation to tune model parameters for Support Vector
 Overall best model performance was obtained wit XGBoost with RMSE of 0.87 and $R^2=0.89$. 
 The performance of different models is summarized in the following table.
 
-![Model_table](https://github.com/user-attachments/assets/e078301c-83ee-4cdc-b1f1-1cdfc3a580e2)
+![image](https://github.com/user-attachments/assets/520bdbb2-0525-4065-a651-8ff356b1b4b2)
+
 
 XGBoost outperforms SVMs and kNN because it is inherently nonlinear and robust to scale and is less sensitive to hyperparameter tuning.  
 XGBoost improves performance by combining multiple trees, which enhances it's ability to model complex patterns. It also reduces overfitting by combining multiple trees and employing shrinkage/regularization.
