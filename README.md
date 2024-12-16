@@ -115,18 +115,6 @@ These results indicate that we should consider other non-linear models.
 We also did more advance analysis using Linear Regression with Lasso and Ridge regularizations and using Principal Component Analysis to reduce number of feature. Using Grid Search Cross-Validation to tune model parameters,
 we found best performance with 10 principal componnets with $R^2=0.72$.
 
-## Polynomial regression 
-
-We then use polynomial regressions of different degree, and 2nd degree polynomial regression shows the best performance with RMSE of 1.12 and $R^2=0.82$.
-
-## K-Nearest Neighbours (KNN)
-
-We also used KNN models using different n numbers of neighbours. We get high variance with low n and high bias with higher n. n=5 and n=10 gave similar performance with RMSE of 1.13 and $R^2=0.81$.
-
-## Support Vector Machines (SVM)
-
-We used Grid Search Cross-Validation to tune model parameters for Support Vector Regressor. We got RMSE of 1.09 and $R^2=0.82$.
-
 ## Extreme Gradient Boosting (XGBoost)
 
 Overall best model performance was obtained wit XGBoost with RMSE of 0.87 and $R^2=0.89$. 
