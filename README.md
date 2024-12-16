@@ -112,8 +112,8 @@ We also check normality by plotting residuals vs theoretical quartiles of normal
 
 We can see that normality is violated for lower  for residual values below -3.
 These results indicate that we should consider other non-linear models.
-We also did more advance analysis using Linear Regression with Lasso and Ridge regularizations and using Principal Component Analysis to reduce number of feature. Using Grid Search Cross-Validation to tune model parameters,
-we found best performance with 10 principal componnets with $R^2=0.72$.
+We also did more advance analysis using Linear Regression with Lasso and Ridge regularizations and using Principal Component Analysis to reduce number of features. Using Grid Search Cross-Validation to tune model parameters,
+we found best performance with 10 principal componnets with $R^2=0.83$.
 
 ## Extreme Gradient Boosting (XGBoost)
 
