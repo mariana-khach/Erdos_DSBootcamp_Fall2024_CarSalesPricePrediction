@@ -112,27 +112,16 @@ We also check normality by plotting residuals vs theoretical quartiles of normal
 
 We can see that normality is violated for lower  for residual values below -3.
 These results indicate that we should consider other non-linear models.
-We also did more advance analysis using Linear Regression with Lasso and Ridge regularizations and using Principal Component Analysis to reduce number of feature. Using Grid Search Cross-Validation to tune model parameters,
-we found best performance with 10 principal componnets with $R^2=0.72$.
-
-## Polynomial regression 
-
-We then use polynomial regressions of different degree, and 2nd degree polynomial regression shows the best performance with RMSE of 1.12 and $R^2=0.82$.
-
-## K-Nearest Neighbours (KNN)
-
-We also used KNN models using different n numbers of neighbours. We get high variance with low n and high bias with higher n. n=5 and n=10 gave similar performance with RMSE of 1.13 and $R^2=0.81$.
-
-## Support Vector Machines (SVM)
-
-We used Grid Search Cross-Validation to tune model parameters for Support Vector Regressor. We got RMSE of 1.09 and $R^2=0.82$.
+We also did more advance analysis using Linear Regression with Lasso and Ridge regularizations and using Principal Component Analysis to reduce number of features. Using Grid Search Cross-Validation to tune model parameters,
+we found best performance with 10 principal componnets with $R^2=0.83$.
 
 ## Extreme Gradient Boosting (XGBoost)
 
 Overall best model performance was obtained wit XGBoost with RMSE of 0.87 and $R^2=0.89$. 
 The performance of different models is summarized in the following table.
 
-![Model_table](https://github.com/user-attachments/assets/e078301c-83ee-4cdc-b1f1-1cdfc3a580e2)
+![image](https://github.com/user-attachments/assets/520bdbb2-0525-4065-a651-8ff356b1b4b2)
+
 
 XGBoost outperforms SVMs and kNN because it is inherently nonlinear and robust to scale and is less sensitive to hyperparameter tuning.  
 XGBoost improves performance by combining multiple trees, which enhances it's ability to model complex patterns. It also reduces overfitting by combining multiple trees and employing shrinkage/regularization.
