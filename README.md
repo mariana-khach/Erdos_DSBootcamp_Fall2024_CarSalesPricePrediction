@@ -125,7 +125,7 @@ The performance of different models is summarized in the following table.
 
 
 XGBoost outperforms SVMs and kNN because it is inherently nonlinear and robust to scale and is less sensitive to hyperparameter tuning.  
-XGBoost improves performance by combining multiple trees, which enhances it's ability to model complex patterns. It also reduces overfitting by combining multiple trees and employing shrinkage/regularization.
+XGBoost improves performance by combining multiple trees, which enhances it's ability to model complex patterns.
 
 ## SHapley Additive exPlanations (SHAP values) for describing feature importances
 
